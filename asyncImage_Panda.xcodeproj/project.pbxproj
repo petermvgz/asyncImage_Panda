@@ -14,6 +14,9 @@
 		D0C09C592A0D8A0B003CABE6 /* asyncImage_PandaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C09C582A0D8A0B003CABE6 /* asyncImage_PandaTests.swift */; };
 		D0C09C632A0D8A0B003CABE6 /* asyncImage_PandaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C09C622A0D8A0B003CABE6 /* asyncImage_PandaUITests.swift */; };
 		D0C09C652A0D8A0B003CABE6 /* asyncImage_PandaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C09C642A0D8A0B003CABE6 /* asyncImage_PandaUITestsLaunchTests.swift */; };
+		D0C09C722A0D8B86003CABE6 /* Panda.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C09C712A0D8B86003CABE6 /* Panda.swift */; };
+		D0C09C742A0D8BE1003CABE6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C09C732A0D8BE1003CABE6 /* DetailView.swift */; };
+		D0C09C762A0D8C7C003CABE6 /* ApplicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C09C752A0D8C7C003CABE6 /* ApplicationData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		D0C09C5E2A0D8A0B003CABE6 /* asyncImage_PandaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = asyncImage_PandaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C09C622A0D8A0B003CABE6 /* asyncImage_PandaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asyncImage_PandaUITests.swift; sourceTree = "<group>"; };
 		D0C09C642A0D8A0B003CABE6 /* asyncImage_PandaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asyncImage_PandaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0C09C712A0D8B86003CABE6 /* Panda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Panda.swift; sourceTree = "<group>"; };
+		D0C09C732A0D8BE1003CABE6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		D0C09C752A0D8C7C003CABE6 /* ApplicationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				D0C09C462A0D8A09003CABE6 /* asyncImage_PandaApp.swift */,
+				D0C09C752A0D8C7C003CABE6 /* ApplicationData.swift */,
+				D0C09C732A0D8BE1003CABE6 /* DetailView.swift */,
 				D0C09C482A0D8A09003CABE6 /* ContentView.swift */,
+				D0C09C712A0D8B86003CABE6 /* Panda.swift */,
 				D0C09C4A2A0D8A0A003CABE6 /* Assets.xcassets */,
 				D0C09C4C2A0D8A0A003CABE6 /* asyncImage_Panda.entitlements */,
 				D0C09C4D2A0D8A0A003CABE6 /* Preview Content */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C09C762A0D8C7C003CABE6 /* ApplicationData.swift in Sources */,
 				D0C09C492A0D8A09003CABE6 /* ContentView.swift in Sources */,
+				D0C09C742A0D8BE1003CABE6 /* DetailView.swift in Sources */,
 				D0C09C472A0D8A09003CABE6 /* asyncImage_PandaApp.swift in Sources */,
+				D0C09C722A0D8B86003CABE6 /* Panda.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
