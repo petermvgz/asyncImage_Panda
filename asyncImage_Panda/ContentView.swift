@@ -8,19 +8,35 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var pandas = ApplicationData()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            NavigationStack {
+                List(pandas.pandas, id: \.self) { panda in
+                    NavigationLink {
+                        DetailView(panda: panda)
+                    } label: {
+                        Text(panda.description.capitalized)
+                        //.font()
+                            .bold()
+                    }
+                }
+                .listStyle(.inset)
+                .navigationTitle("Panda Photos")
+            }
+            .task {
+                await pandas.getData()
+            }
         }
-        .padding()
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+
